@@ -1,0 +1,42 @@
+
+.main{
+    display: flex;
+}
+
+.img{
+    width: 100px;
+    height: 90px;
+    background-color: aqua;
+    box-shadow: 0px 0px 12px 0px rgba(73, 75, 116, 0.16);
+}
+
+.top{
+    display: flex;
+}
+.details{
+    width: 100%;
+}
+.name{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+.button{
+    width: 70px;
+    background-color: #2DCC70;
+    border-color: #2DCC70;
+    outline: none;
+    border-radius: 8px;
+    margin-left: auto;
+
+}
+
+.bottom{
+    display: flex;
+    margin-top: auto;
+}
+
+p{
+    margin:0;
+    padding: 0;
+}
