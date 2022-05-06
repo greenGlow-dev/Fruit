@@ -1,6 +1,8 @@
 
 .main{
     display: flex;
+    border-bottom: 1px solid whitesmoke;
+   padding: 15px 0;
 }
 
 .img{
@@ -8,13 +10,21 @@
     height: 90px;
     background-color: aqua;
     box-shadow: 0px 0px 12px 0px rgba(73, 75, 116, 0.16);
+    box-sizing: border-box;
+    border-radius: 7px;
+    
 }
 
 .top{
     display: flex;
+   
 }
 .details{
+    display: flex;
+    flex-direction: column;
     width: 100%;
+  margin-left: 15px;
+  box-sizing: border-box;
 }
 .name{
     padding: 0;
@@ -28,15 +38,30 @@
     outline: none;
     border-radius: 8px;
     margin-left: auto;
-
+border-style: none;
 }
 
 .bottom{
     display: flex;
     margin-top: auto;
+    margin-bottom: 0;
+ 
 }
 
 p{
     margin:0;
     padding: 0;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.data{
+    margin-right: 25px;
+}
+
+.title{
+    opacity: .3;
+}
+
+.value{
+    font-weight: 900;
 }

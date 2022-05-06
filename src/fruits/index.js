@@ -14,23 +14,26 @@ export const Fruit = () => {
             <div className='bottom'>
 
 
-            <div className='data1'>
+            <div className='data'>
                 <p className='title'>UOM</p>
                 <p className='value'>02</p>
             </div>
             
-            <div className='data2'> 
-            <p className='title'>UOM</p>
+            <div className='data'> 
+            
+            <p className='title'>Pack Size</p>
                 <p className='value'>02</p>
+
                 </div>
             
-            <div className='data3'>
-                 <p className='title'>UOM</p>
+            <div className='data'>
+                 <p className='title'>Per Unit</p>
                 <p className='value'>02</p>
                 </div>
 
             
-            <div className='data4'> <p className='title'>UOM</p>
+            <div className='data'>
+                 <p className='title'>Total</p>
                 <p className='value'>02</p>
                 </div>
             
